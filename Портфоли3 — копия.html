@@ -1,0 +1,160 @@
+<html>
+  <style>
+    
+@import url("https://fonts.googleapis.com/css?family=Raleway:400,400i,700");
+
+body {
+  display: flex;
+  height: 100vh;
+  background: url("https://funart.pro/uploads/posts/2020-04/1587216229_28-p-zadnie-foni-dlya-saitov-118.png"); 
+  
+}
+
+    
+#navbar ul {
+  display: flex;
+  position:relative;
+  left:-300px;
+  bottom: 300px;
+  flex-direction: column;
+  align-items: start;
+  list-style-type: none;}
+
+#navbar li {
+   padding: 6px 0;}
+ #navbar a {
+      --fill-color: #198CE6;
+      position: relative;
+      display: block;
+      padding: 10px 10px;
+      font: 700 3rem Raleway, sans-serif;
+      text-decoration: none;
+      text-transform: uppercase;
+      -webkit-text-stroke: 2px var(--fill-color);
+      background: linear-gradient(var(--fill-color) 0 100%) left / 0 no-repeat;
+      color: transparent;
+   transition: 0.5s linear;}
+
+/*noinspection ALL*/
+#navbar a {
+  background-clip: text;
+}
+
+a:hover {
+        background-size: 100%;
+      }
+   
+    
+    #profile-link{font-size: 30px;
+      position:relative;
+ left:100px;
+   bottom: 300px;
+    }
+    p2{ position: relative;
+      font-size: 30px;
+    color: yellow;
+    margin-left:100px;
+    margin-bottom:10px;
+      bottom: 300px;
+    }
+    #contacts{
+      position:absolute;
+    top: 1600px;
+    left: 500px;
+    color: white;
+    font-size: 40px;}
+    
+    
+    .fist{position:relative;
+      float: left;
+      padding-bottom:10px;
+      top: 10px;
+      left:-300px;
+      border-bottom: 4px solid #25cf9ccc;
+      border-top: 4px solid #25cf9ccc;
+  border-left: 4px solid #25cf9ccc;
+       border-right: 4px solid #25cf9ccc;
+      }
+    .fist2{position:relative;
+      float: right;
+     
+      border-bottom: 4px solid #25cf9ccc;
+      border-top: 4px solid #25cf9ccc;
+  border-left: 4px solid #25cf9ccc;
+       border-right: 4px solid #25cf9ccc;
+      top: 10px;
+      left:-800px;
+     
+    }
+    #projects{position:relative;
+    top:280px;
+    left:700px;
+    font-size:40px;
+      color: #A2822F;
+  text-shadow: 1px 1px 0 white;
+    }
+ 
+    
+    #welcome-section {padding-left: 400px;
+    color: #f2f2f2;
+    font-size: 50px;
+      height:447px;
+      text-shadow: 5px 5px 0 black;
+    }
+    #About{position:relative;
+    top:400px;
+    font-size:20px;
+    color:white;}
+    
+    @media screen and (max-width: 800px) {
+  #navbar {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  #navbar a {
+    float: none;
+    width: 100%;
+  }
+}
+  </style>
+  <head>
+      
+  </head>
+  <body>
+    <main>
+<section id="welcome-section">
+  <h1> Hi! This is Cravenger page </h1>
+  </section>
+      <div>
+<section id="projects">
+  <header class="project-tile">Проекты
+  </header>
+    <p><a href="https://github.com/Cravenger/Tech-page"><img src="https://sun9-35.userapi.com/fhFjs6mu81gzq2m1NCBRGPbOI9rhlQqYaBRWtg/zXkjeFQ4d_E.jpg" width="350" 
+   height="240" alt="Пример" class="fist"></a></p>
+    <p4><a href="https://github.com/Cravenger/Landing-example"><img src="https://sun9-39.userapi.com/VGJTg10_TPtEnMyK79n3Lvf40Q6DFjQ3CWi7vA/MN-_uROJV6A.jpg" width="350" height="250" alt="Пример2" class="fist2"></a></p4>
+</section>
+      </div>
+  <section id="contacts">
+    <p3>Главный офис: +7-912-282-67-56</p3>
+</section>
+<nav id="navbar">
+  <ul>
+    <li><a href="#contacts">Контакты</a></li>
+    <li><a href="#projects">Проекты</a></li>
+    <li><a href="#About">Обо мне</a></li>
+  </ul>
+
+</nav>
+<a id="profile-link" href="https://github.com/Cravenger" target="_blank"><img src="https://cdn.icon-icons.com/icons2/838/PNG/512/circle-github_icon-icons.com_66826.png" style="width:100px;" alt="Гитхаб"></a>
+<p2>Im on GitHub</p2>
+<p5 id="About">
+  Недавно запулил несколько простеньких вещей, можете ознакомиться и связаться со мной.</p5>
+
+
+</main>
+</body>
+</html>
